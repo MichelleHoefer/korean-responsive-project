@@ -1,7 +1,72 @@
-h1 {
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #6495ed;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/hangul.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: antiquewhite;
+  text-align: center;
+  padding: 50px 0;
+}
+header h1 {
   font-style: normal;
   font-size: 96px;
   font-weight: 700px;
-  line-height: 144px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 400px;
+  line-height: 1.5;
+  margin: 0 0 10 0;
+}
+header h3 {
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 900px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+header a {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: antiquewhite;
+  color: blueviolet;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 30px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
 }
