@@ -24,7 +24,14 @@ body {
 
 .grid-secondary-main img {
   max-width: 300px;
+  margin: 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
 }
+.grid-secondary-main img:hover {
+  transform: scale(1.2);
+}
+
 .card {
   background-color: antiquewhite;
   margin: 30px 0;
@@ -209,5 +216,7 @@ footer a {
   }
   .grid-secondary-main {
     grid-template-columns: 1fr;
+    display: block;
+    text-align: center;
   }
 }
