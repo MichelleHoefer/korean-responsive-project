@@ -234,11 +234,7 @@ footer a {
     display: block;
     text-align: center;
   }
-  .video {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-  }
+
   .video iframe {
     left: 0;
     top: 0;
