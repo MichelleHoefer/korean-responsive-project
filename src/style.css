@@ -31,6 +31,10 @@ body {
 .grid-secondary-main img:hover {
   transform: scale(1.2);
 }
+.grid-embed {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
 .card {
   background-color: antiquewhite;
@@ -67,6 +71,9 @@ body {
 .video {
   width: 100%;
   aspect-ratio: 16/9;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 header {
@@ -163,6 +170,10 @@ section {
 section.secondary {
   background-color: lightcyan;
 }
+iframe {
+  margin: 30px;
+  padding: 20px;
+}
 
 footer {
   color: antiquewhite;
@@ -222,5 +233,18 @@ footer a {
     grid-template-columns: 1fr;
     display: block;
     text-align: center;
+  }
+  .video {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .video iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 }
