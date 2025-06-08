@@ -238,6 +238,7 @@ footer a {
   .video iframe {
     left: 0;
     top: 0;
+    margin-right: 10px;
     height: 100%;
     width: 100%;
     position: absolute;
