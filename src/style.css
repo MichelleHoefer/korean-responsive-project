@@ -64,6 +64,10 @@ body {
   max-width: 100%;
   display: block;
 }
+.video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
